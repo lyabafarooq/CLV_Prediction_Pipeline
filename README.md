@@ -4,7 +4,7 @@ Big Data Analytics project for customer lifetime value prediction in retail
 
 ##  Live Project Report & Visualization
 
-*View the full, interactive website report here:* [https://MuskanAsadInsights.github.io/CLV-Prediction-Pipeline/](https://lyabafarooq.github.io/CLV_Prediction_Pipeline/)
+*View the full, interactive website report here:* [https://lyabafarooq.github.io/CLV_Prediction_Pipeline/](https://lyabafarooq.github.io/CLV_Prediction_Pipeline/)
 
 ---
 
