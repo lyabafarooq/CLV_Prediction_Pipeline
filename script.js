@@ -16,9 +16,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 appearOnScroll.unobserve(entry.target);
             }
         });
-    }, appearOptions);
+    }, appearOptions); 
+    document.addEventListener('DOMContentLoaded', () => {
+    // ---------------------- 1. SCROLL SPY LOGIC ----------------------
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const sections = document.querySelectorAll('.report-section, .authors-section');
+    const stickyElement = document.querySelector('.justification-box');
+    const mlMethodologySection = document.getElementById('ml-methodology');
+    const mlCol = document.querySelector('.ml-col'); // The column containing the Pre-processing list
+    const backToTopBtn = document.getElementById('backToTopBtn');
+
+    const updateActiveLink = () => {
+        let current = '';
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 100; // Adjusted for fixed navbar height
+            if (window.scrollY >= sectionTop) {
+
 
     faders.forEach(fader => {
         appearOnScroll.observe(fader);
     });
+
 });
